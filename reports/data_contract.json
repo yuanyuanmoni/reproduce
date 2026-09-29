@@ -1,0 +1,44 @@
+{
+  "subject": "sub-08",
+  "sampling_rate_hz": 250,
+  "caption_path_rule": "train_image.npy and test_image.npy contain adjacent duplicate paths for two captions, not EEG repeats.",
+  "train": {
+    "official_array_shape": [
+      16540,
+      4,
+      63,
+      250
+    ],
+    "eeg_shape": [
+      66160,
+      63,
+      250
+    ],
+    "dtype": "float64",
+    "images": 16540,
+    "trials_per_image": 4,
+    "eeg_inputs": 66160,
+    "unique_names": 16540,
+    "ordered_name_sha256": "30e1218d87b7fe95fec9efd6f7e136090804a6d718d16332b5f54340ad702a7d"
+  },
+  "test": {
+    "official_array_shape": [
+      200,
+      80,
+      63,
+      250
+    ],
+    "eeg_shape": [
+      200,
+      80,
+      63,
+      250
+    ],
+    "dtype": "float64",
+    "images": 200,
+    "trials_per_image": 80,
+    "eeg_inputs": 200,
+    "unique_names": 200,
+    "ordered_name_sha256": "a97b84c1cc70a8ca36e54bd61b05e31252b535faed1e23b092599852754894a6"
+  }
+}

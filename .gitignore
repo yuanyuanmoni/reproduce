@@ -1,0 +1,13 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local experiments and bulky derived artifacts
+runs/
+cache/
+*.pt
+*.log
+
+# The supplied reference paper is kept locally, not redistributed with code.
+*.pdf
